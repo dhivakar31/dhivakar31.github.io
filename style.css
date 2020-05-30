@@ -1,0 +1,30 @@
+body {
+   
+ background: url(a.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn-change{
+    height: 70px;
+    width: 150px;
+    opacity:0.8;
+    border-radius:30px;
+    background:black;
+    margin: 20px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color:ghostwhite;
+}
+.btn-change:hover{
+    -webkit-transform: scale(1.1);
+    background: black;
+}
+.row{
+    margin-top: 150px;
+    margin-left: 100px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="style1.css">
+   <script src="form1.js"></script>
+</head>
+<body>
+<div class="float-right">
+    <button class="btn-change" onclick="result()">Show Skill</button>
+</div>
+<div class="float-right">
+    <button class="btn-change" onclick="formpage()">Go to test page</button>
+</div><br><br><br>
+<form class="form" name="easyatmcq">
+    <div class="form-group">
+      <label>Enter the time taken to complete the test.(Seconds)</label>
+      <input type="text" class="form-control" id="testtime">
+    </div>
+    <div class="form-group">
+      <label>Enter average time taken by other students to complete the test.(Seconds)</label>
+      <input type="text" class="form-control" >
+    </div>
+  </form>
+<div id="show">
+
+</div>
+</body>
+</html>

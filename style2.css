@@ -1,0 +1,48 @@
+.btn-change{
+    height: 70px;
+    width: 150px;
+    opacity:0.7;
+    border-radius:30px;
+    background:yellow;
+    margin: 20px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color:brown;
+}
+.btn-change:hover{
+    -webkit-transform: scale(1.1);
+    
+}
+#cont1{
+    
+    background: url(d.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:499px;
+
+}
+#cont2{
+    background-color:orangered;
+    opacity: 0.8;
+    
+}
+#flu{
+    
+}
+#butcon{
+    background: url(e.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   height: 200px;
+}
+ul{
+    opacity: 0.5;
+    color:black;
+}
